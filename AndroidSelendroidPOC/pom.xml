@@ -25,12 +25,11 @@
         <version>3.141.59</version>
     </dependency> 
     
-    
     <dependency>
   <groupId>org.testng</groupId>
   <artifactId>testng</artifactId>
   <version>6.8</version>
-  <scope>test</scope>
+  <scope>compile</scope>
 </dependency>
     <dependency>
 			<groupId>org.apache.poi</groupId>

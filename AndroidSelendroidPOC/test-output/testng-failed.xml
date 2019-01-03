@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [SelendroidTest]">
-  <listeners>
-    <listener class-name="com.qa.ExtentReportListener.ExtentReportNG"/>
-  </listeners>
-  <test name="Android App Test Cases(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.testcases.HomePageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.qa.testcases.HomePageTest -->
       <class name="com.qa.testcases.RegistrationPageTest">
         <methods>
           <include name="ResgistrationTest" invocation-numbers="0 1"/>
@@ -20,5 +11,5 @@
         </methods>
       </class> <!-- com.qa.testcases.RegistrationPageTest -->
     </classes>
-  </test> <!-- Android App Test Cases(failed) -->
-</suite> <!-- Failed suite [SelendroidTest] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

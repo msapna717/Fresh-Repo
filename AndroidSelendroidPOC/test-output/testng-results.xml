@@ -1,43 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="4" passed="2">
+<testng-results skipped="0" failed="2" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="SelendroidTest" duration-ms="236025" started-at="2018-12-31T09:35:05Z" finished-at="2018-12-31T09:39:01Z">
+  <suite name="Default suite" duration-ms="162008" started-at="2019-01-03T05:40:41Z" finished-at="2019-01-03T05:43:23Z">
     <groups>
     </groups>
-    <test name="Android App Test Cases" duration-ms="236025" started-at="2018-12-31T09:35:05Z" finished-at="2018-12-31T09:39:01Z">
-      <class name="com.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@17d0008]" name="setup" is-config="true" duration-ms="36912" started-at="2018-12-31T15:05:05Z" finished-at="2018-12-31T15:05:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Basicfucntioanlities()[pri:0, instance:com.qa.testcases.HomePageTest@17d0008]" name="Basicfucntioanlities" duration-ms="7767" started-at="2018-12-31T15:05:42Z" finished-at="2018-12-31T15:05:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Basicfucntioanlities -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@17d0008]" name="teardown" is-config="true" duration-ms="5264" started-at="2018-12-31T15:05:50Z" finished-at="2018-12-31T15:05:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@17d0008]" name="setup" is-config="true" duration-ms="27891" started-at="2018-12-31T15:05:55Z" finished-at="2018-12-31T15:06:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Popuphandling()[pri:0, instance:com.qa.testcases.HomePageTest@17d0008]" name="Popuphandling" duration-ms="3655" started-at="2018-12-31T15:06:23Z" finished-at="2018-12-31T15:06:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Popuphandling -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@17d0008]" name="teardown" is-config="true" duration-ms="5258" started-at="2018-12-31T15:06:27Z" finished-at="2018-12-31T15:06:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.qa.testcases.HomePageTest -->
+    <test name="Default test" duration-ms="162008" started-at="2019-01-03T05:40:41Z" finished-at="2019-01-03T05:43:23Z">
       <class name="com.qa.testcases.RegistrationPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@1cab519]" name="setup" is-config="true" duration-ms="28700" started-at="2018-12-31T15:06:33Z" finished-at="2018-12-31T15:07:02Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@bbfa04]" name="setup" is-config="true" duration-ms="42885" started-at="2019-01-03T11:10:42Z" finished-at="2019-01-03T11:11:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ResgistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.RegistrationPageTest@1cab519]" name="ResgistrationTest" duration-ms="41012" started-at="2018-12-31T15:07:02Z" data-provider="gePOCtTestData" finished-at="2018-12-31T15:07:43Z">
+        <test-method status="FAIL" signature="ResgistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.RegistrationPageTest@bbfa04]" name="ResgistrationTest" duration-ms="38887" started-at="2019-01-03T11:11:25Z" data-provider="gePOCtTestData" finished-at="2019-01-03T11:12:04Z">
           <params>
             <param index="0">
               <value>
@@ -68,7 +42,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'SBWIN0253', ip: '10.10.1.123', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_151'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 045181ef-56a9-44b6-a328-0eb6318ccc15
+Session ID: ddde8557-3c59-4513-bd4b-535c1966ec79
 *** Element info: {Using=id, value=btnRegisterUser}]]>
             </message>
             <full-stacktrace>
@@ -78,7 +52,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'SBWIN0253', ip: '10.10.1.123', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_151'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 045181ef-56a9-44b6-a328-0eb6318ccc15
+Session ID: ddde8557-3c59-4513-bd4b-535c1966ec79
 *** Element info: {Using=id, value=btnRegisterUser}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -148,15 +122,15 @@ Session ID: 045181ef-56a9-44b6-a328-0eb6318ccc15
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResgistrationTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.RegistrationPageTest@1cab519]" name="teardown" is-config="true" duration-ms="5452" started-at="2018-12-31T15:07:43Z" finished-at="2018-12-31T15:07:48Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.RegistrationPageTest@bbfa04]" name="teardown" is-config="true" duration-ms="5324" started-at="2019-01-03T11:12:04Z" finished-at="2019-01-03T11:12:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@1cab519]" name="setup" is-config="true" duration-ms="28524" started-at="2018-12-31T15:07:48Z" finished-at="2018-12-31T15:08:17Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.RegistrationPageTest@bbfa04]" name="setup" is-config="true" duration-ms="27405" started-at="2019-01-03T11:12:09Z" finished-at="2019-01-03T11:12:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ResgistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.RegistrationPageTest@1cab519]" name="ResgistrationTest" duration-ms="39440" started-at="2018-12-31T15:08:17Z" data-provider="gePOCtTestData" finished-at="2018-12-31T15:08:56Z">
+        <test-method status="FAIL" signature="ResgistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.RegistrationPageTest@bbfa04]" name="ResgistrationTest" duration-ms="40273" started-at="2019-01-03T11:12:36Z" data-provider="gePOCtTestData" finished-at="2019-01-03T11:13:17Z">
           <params>
             <param index="0">
               <value>
@@ -187,7 +161,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'SBWIN0253', ip: '10.10.1.123', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_151'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 94e8a395-f785-4fcf-a1c6-98688e4e4580
+Session ID: 1d377576-bbb5-4eea-8e39-341465f5692a
 *** Element info: {Using=id, value=btnRegisterUser}]]>
             </message>
             <full-stacktrace>
@@ -197,7 +171,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'SBWIN0253', ip: '10.10.1.123', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_151'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 94e8a395-f785-4fcf-a1c6-98688e4e4580
+Session ID: 1d377576-bbb5-4eea-8e39-341465f5692a
 *** Element info: {Using=id, value=btnRegisterUser}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -225,7 +199,8 @@ Session ID: 94e8a395-f785-4fcf-a1c6-98688e4e4580
 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
@@ -266,11 +241,11 @@ Session ID: 94e8a395-f785-4fcf-a1c6-98688e4e4580
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ResgistrationTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.RegistrationPageTest@1cab519]" name="teardown" is-config="true" duration-ms="5220" started-at="2018-12-31T15:08:56Z" finished-at="2018-12-31T15:09:01Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.RegistrationPageTest@bbfa04]" name="teardown" is-config="true" duration-ms="6220" started-at="2019-01-03T11:13:17Z" finished-at="2019-01-03T11:13:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.testcases.RegistrationPageTest -->
-    </test> <!-- Android App Test Cases -->
-  </suite> <!-- SelendroidTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
