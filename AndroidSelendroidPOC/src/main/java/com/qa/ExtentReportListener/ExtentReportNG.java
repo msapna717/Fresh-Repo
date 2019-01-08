@@ -2,7 +2,7 @@
  * @autor : Ishan Sharma
  * 
  */
-/*package com.qa.ExtentReportListener;
+package com.qa.ExtentReportListener;
 
 import java.io.File;
 import java.util.Calendar;
@@ -76,4 +76,4 @@ public class ExtentReportNG implements IReporter {
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();
 	}
-}*/
+}

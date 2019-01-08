@@ -64,12 +64,12 @@ public class HomePage extends BaseClass {
 	public void PopupAlert()
 	{
 		PopUp.click();
-		//WebDriverWait wait=new WebDriverWait(driver,10);
-		//wait.until(ExpectedConditions.alertIsPresent());
-	      //Alert A =driver.switchTo().alert();
-		//String Alertmessage=A.getText();
-        //System.out.println(Alertmessage);
-		//A.accept();
+		WebDriverWait wait=new WebDriverWait(driver,10);
+		wait.until(ExpectedConditions.alertIsPresent());
+	      Alert A =driver.switchTo().alert();
+		String Alertmessage=A.getText();
+        System.out.println(Alertmessage);
+		A.accept();
 		
 	}
 	

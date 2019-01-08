@@ -14,6 +14,8 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -46,26 +48,29 @@ public class BaseClass {
 	}
 	
 	
+	
+	
 	public static void initialization() throws MalformedURLException{
-		//String browser = prop.getProperty("BROWSERNAME");
-		//String apkfile=prop.getProperty("Apkfilepath");
-		//String Version=prop.getProperty("PlatformVersion");
-		//String Device=prop.getProperty("DeviceName");
-		//String pakage =prop.getProperty("AppPackage");
-		//String Activity=prop.getProperty("AppActivity");
+		String browser = prop.getProperty("BROWSERNAME");
+		String apkfile=prop.getProperty("Apkfilepath");
+		String Version=prop.getProperty("PlatformVersion");
+		String Device=prop.getProperty("DeviceName");
+		String pakage =prop.getProperty("AppPackage");
+		String Activity=prop.getProperty("AppActivity");
 		//String Server=prop.getProperty("AppiumServer");
-		//String platform=prop.getProperty("PlatformName");
+		String platform=prop.getProperty("PlatformName");
 				
 		//Set up desired capabilities and pass the Android app-activity and app-package to Appium
-		File file=new File("D:/Automation/Android/selendroid-test-app-0.17.0.apk");
+		File file=new File(apkfile);
 		//path=System.getProperty("user.dir");
 		DesiredCapabilities capabilities = new DesiredCapabilities();
-		capabilities.setCapability("CapabilityType.BROWSER_NAME","Android");
-		capabilities.setCapability("platformVersion", "7.0"); 
-		capabilities.setCapability("deviceName","Samsung");
-		capabilities.setCapability("platformName","Android");
-	    capabilities.setCapability("appPackage", "io.selendroid.testapp");
-	    capabilities.setCapability("appActivity", "io.selendroid.testapp.HomeScreenActivity");
+		//capabilities.setCapability("CapabilityType.BROWSER_NAME","Android");
+		capabilities.setCapability("CapabilityType.BROWSER_NAME",browser);
+		capabilities.setCapability("platformVersion", Version); 
+		capabilities.setCapability("deviceName",Device);
+		capabilities.setCapability("platformName",platform);
+	    capabilities.setCapability("appPackage", pakage);
+	    capabilities.setCapability("appActivity", Activity);
 	   capabilities.setCapability(MobileCapabilityType.APP, file.getAbsolutePath());
 	   //capabilities.setCapability("app",path+"//app//selendroid-test-app-0.17.0.apk");
 	    System.out.println("Session is created");
@@ -85,4 +90,12 @@ public class BaseClass {
 	    
 }	
 	}
+
+
+
+
+
+
+
+
 	
