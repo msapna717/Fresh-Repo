@@ -5,7 +5,7 @@
     <classes>
       <class name="com.qa.testcases.RegistrationPageTest">
         <methods>
-          <include name="ResgistrationTest"/>
+          <include name="ResgistrationTest" invocation-numbers="0 1"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
