@@ -1,160 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>TestNG:  Unit Test</title>
-<style type="text/css">
-table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
-table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
-border:1px solid #000099;padding:.25em .5em .25em .5em
-}
-table.result th {vertical-align:bottom}
-tr.param th {padding-left:1em;padding-right:1em}
-tr.param td {padding-left:.5em;padding-right:2em}
-td.numi,th.numi,td.numi_attn {
-text-align:right
-}
-tr.total td {font-weight:bold}
-table caption {
-text-align:center;font-weight:bold;
-}
-table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
-table.passed td,table tr.passedeven td {background-color: #33FF33;}
-table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
-table.passed td,table tr.skippedodd td {background-color: #dddddd;}
-table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
-table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
-tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
-p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
-div.shootout {padding:2em;border:3px #4854A8 solid}
-</style>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
 </head>
 <body>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">156.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">70,055</td><td></td><td></td></tr>
 </table>
-<table cellspacing="0" cellpadding="0" class="passed" id="summary">
-<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="2">com.qa.testcases.RegistrationPageTest</td><td><a href="#m1"><b>ResgistrationTest</b>  </a></td><td class="numi">2</td><td>1546862500283</td><td class="numi">117505</td></tr><tr class="failedodd"><td><a href="#m2"><b>ResgistrationTest</b>  </a></td><td class="numi">2</td><td>1546862500283</td><td class="numi">117505</td></tr>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.testcases.RegistrationPageTest</td><td><a href="#m0">ResgistrationTest</a></td><td rowspan="2">1548218459272</td><td rowspan="2">26652</td></tr><tr class="passedeven"><td><a href="#m1">ResgistrationTest</a></td></tr></tbody>
 </table>
-<h1>Default test</h1>
-<h2 id="m1">com.qa.testcases.RegistrationPageTest:ResgistrationTest</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
-<tr class="param stripe"><td>sharma</td>
-<td>ishansharma@sourcebits.com</td>
-<td>ishan@456</td>
-<td>Ishan</td>
-</tr>
-<tr><td style="padding-left:3em" colspan="4">
-<p>An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;SBWIN0253&apos;, ip: &apos;10.10.1.123&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: 229de4aa-55b2-4877-8c16-6ade4b8f50a1
-*** Element info: {Using=id, value=btnRegisterUser}</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-<br/>at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
-<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-<br/>at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
-<br/>at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-<br/>at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
-<br/>at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-<br/>at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-<br/>at org.openqa.selenium.By$ById.findElement(By.java:188)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
-<br/>at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-<br/>at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-<br/>at java.lang.reflect.Method.invoke(Method.java:498)
-<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-<br/>at io.appium.java_client.android.$Proxy8.findElement(Unknown Source)
-<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-<br/>at com.sun.proxy.$Proxy13.click(Unknown Source)
-<br/>at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:59)
-<br/>at com.qa.testcases.RegistrationPageTest.ResgistrationTest(RegistrationPageTest.java:49)
-<br/>25 lines not shown
-</td></tr>
-</table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">com.qa.testcases.RegistrationPageTest:ResgistrationTest</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
-<tr class="param stripe"><td>Ishan</td>
-<td>ishansharma16@gmail.com</td>
-<td>ishan@123</td>
-<td>Sharma</td>
-</tr>
-<tr><td style="padding-left:3em" colspan="4">
-<p>An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;SBWIN0253&apos;, ip: &apos;10.10.1.123&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {CapabilityType.BROWSER_NAME: Android, app: D:\Automation\Android\selen..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, deviceName: Samsung, platformName: android, platformVersion: 7.0}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 0715f742c4750c36, deviceScreenSize: 1440x2560, deviceUDID: 0715f742c4750c36, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: b47efd7b-29ae-4220-9f34-a916fe8a1219
-*** Element info: {Using=id, value=btnRegisterUser}</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-<br/>at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
-<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-<br/>at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
-<br/>at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-<br/>at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
-<br/>at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
-<br/>at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-<br/>at org.openqa.selenium.By$ById.findElement(By.java:188)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
-<br/>at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-<br/>at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-<br/>at java.lang.reflect.Method.invoke(Method.java:498)
-<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-<br/>at io.appium.java_client.android.$Proxy8.findElement(Unknown Source)
-<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-<br/>at com.sun.proxy.$Proxy13.click(Unknown Source)
-<br/>at com.qa.pages.RegistrationPage.Registration(RegistrationPage.java:59)
-<br/>at com.qa.testcases.RegistrationPageTest.ResgistrationTest(RegistrationPageTest.java:49)
-<br/>25 lines not shown
-</td></tr>
-</table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-</body></html>
+<h2>Default test</h2><h3 id="m0">com.qa.testcases.RegistrationPageTest#ResgistrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>sharma</td><td>ishansharma@sourcebits.com</td><td>ishan@456</td><td>Ishan</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.testcases.RegistrationPageTest#ResgistrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Ishan</td><td>ishansharma16@gmail.com</td><td>ishan@123</td><td>Sharma</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

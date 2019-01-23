@@ -76,7 +76,7 @@ public class BaseClass {
 	    System.out.println("Session is created");
 	    
 	    try{
-	    	driver= new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
+	    	driver= new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"),capabilities);
 	  }catch(MalformedURLException e){
 	    	e.printStackTrace();
 	    }

@@ -21,7 +21,7 @@ public class TestUtil extends BaseClass {
 	public static long page_load_timeout=20;
 	public static long Implicitwait_timeout=20;
 	
-	public static String TESTDATA_SHEET_PATH = "C:/Users/Sourcebits/git/AndroidPOC/AndroidSelendroidPOC/src/main/java/com/qa/TesData/Untitledspreadsheet.xlsx";
+	public static String TESTDATA_SHEET_PATH = "/Users/ishans/git/Flash/AndroidSelendroidPOC/src/main/java/com/qa/TesData/Untitledspreadsheet.xlsx";
 		
 	static Workbook book;
 	static Sheet sheet;
